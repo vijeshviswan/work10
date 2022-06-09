@@ -1,0 +1,8 @@
+@charset 'utf-8';
+$global-flexbox: false;
+
+
+@import 'settings';
+@import 'foundation/_foundation';
+
+@include foundation-everything($flex: false);

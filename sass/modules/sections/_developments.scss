@@ -1,0 +1,593 @@
+ 
+/*** developments Page *****************************************************************************************************************************************/
+
+.inner-banner__outercont{
+	float: left;
+	width: 100%;	
+	position: relative;
+	
+}
+.inner-banner__imgblk{
+	float: left;
+	width: 100%;
+	height: 423px;
+	overflow: hidden;
+	
+	figure{
+		height: 100%;
+		float: left;
+		width: 100%;
+		
+		img{
+			float: left;
+			width: 100%;
+		}
+	}	
+}
+.inner-banner__content-outer{
+	float: left;
+	width: 100%;
+}
+.overlayed-content{
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 100%;
+	@include flexbox;
+	@include flex-direction(column);
+	@include justify-content(space-between);
+	@include align-items(left);
+	
+	.breadcrumbs__outer{
+		position: relative;
+		left: auto;
+		top: 40px;
+		margin: 37px 0 0 0;
+	}
+}
+.inner-banner_content-details{
+	float: left;
+	width: 100%;
+	text-align: center;
+	
+	h2{
+		color: $lighter;
+	}
+	
+	p{
+		color: $lighter;
+	}
+}
+.dropdown__switch-outer{
+	float: left;
+	width: auto;
+	margin: 0 0 22px 0;
+	
+	span{
+		float: left;
+		font-size: $txt-size1;
+		color: $lighter;
+	}
+}
+.switch-dropdown{
+	float: right;
+	width: auto;
+	position: relative;
+	
+	a{
+		float: left;
+		font-size: $txt-size;
+		color:$sociaalpri-col;
+		margin: 0 0 0 13px;
+	}
+	
+	ul{
+		position: absolute;
+		left: 0;
+		top: 20px;
+		margin: 0;
+		width: 110px;
+		
+		
+		li{
+			list-style: none;			
+			float: left;
+			margin: 0;
+			line-height: 22px;
+			
+			a{
+				float: left;
+				font-size: $txt-size;
+				color:$sociaalpri-col;
+			}
+		}
+	}
+}
+
+
+
+.tab__tabbed-content{
+	float: left;
+	width: 100%;
+	
+	> ul{
+		float: left;
+		width: 100%;
+		@include flexbox;
+        @include flex-direction(row);
+        @include justify-content(center);
+		border-bottom: 1px solid $tab-brdr;
+		border-left:none;
+		border-right:none;
+		border-top:none;
+		
+		li{
+			margin: 0 8px;
+			
+			> a{
+				background: $lighter;
+				color: $sociaalpri-col;
+				font-size: $txt-size;
+				font-family: $subfont;
+				padding: 18px 50px 18px 51px;
+				
+				&:hover{
+					background: $sociaalpri-col;
+					color: $lighter;
+				}
+			}
+			
+			&.is-active a{
+				background: $sociaalpri-col;
+				color: $lighter;
+			}
+		}
+	}
+	
+	.tabs-content{
+		float: left;
+		width: 100%;
+		border: none;
+	}
+}
+
+.tabs-panel{
+	float: left;
+	width: 100%;
+	padding: 0;
+
+	.article-card{
+		float: left;
+		width: 100%;
+        min-height: 50px;
+		position: relative;
+		
+		.widget-outer{
+			float: left;
+			width: 100%;
+			border-radius: 5px;
+			list-style: none;
+			border: 1px solid $navborder;
+			border-radius: 12px; 
+			margin: 0 0 30px 0;
+			-webkit-transition:all 400ms ease-in;
+			-moz-transition: all 400ms ease-in;
+			-o-transition: all 400ms ease-in;
+			-ms-transition: all 400ms ease-in;
+			transition: all 400ms ease-in;
+            background: $lighter;
+			
+			.widget-image{
+                float: left;
+                width: 100%;
+                border-top-left-radius: 12px;
+                border-top-right-radius: 12px;
+                -webkit-transition:all 400ms ease-in;
+                -moz-transition: all 400ms ease-in;
+                -o-transition: all 400ms ease-in;
+                -ms-transition: all 400ms ease-in;
+                transition: all 400ms ease-in;
+				
+				.widget-image-inner{
+					float: left;
+					width: 100%;
+					position: relative;					
+				}
+				
+				.image-info{
+					background: url(../images/svg/video_iconbg.svg) no-repeat left center;
+					padding: 39px 43px 20px 32px;
+					position: absolute;
+					left: 0;
+					bottom: 0;
+					float: left;
+					width: 100%;
+					font-size: $txt-size1;
+					color: $lighter;
+					font-family: $mediumfont;
+					
+					span{
+						font-family: $mainfont;
+						font-size: $txt-size;
+						float: left;
+						width: 100%;
+						color: $lighter;
+						padding: 0 0 5px 0;
+					}
+				}
+				
+				img{
+					float: left;
+					width: 100%;
+					border-top-left-radius: 12px;
+					border-top-right-radius: 12px;
+					-webkit-transition: all .8s ease;
+					-moz-transition: all .8s ease;
+					-o-transition: all .8s ease;
+					-ms-transition: all .8s ease;
+					transition: all .8s ease;
+				}
+			}
+			
+			.widget-content{
+				float: left;
+				width: 100%;
+				border-bottom-left-radius: 12px;
+				border-bottom-right-radius: 12px;
+				padding: 23px 30px 15px;
+				
+				.widget-title{
+					float: left;
+					width: 100%;
+					
+					a{
+						padding: 0;
+						color: $sociaalpri-col;
+						
+						h6{
+							color: $sociaalpri-col;
+							line-height: 26px;
+						}			
+						&:hover{
+							text-decoration: underline;
+						}
+					}							
+				}
+				
+				.widget-text{
+					float: left;
+					width: 100%;
+					
+					p{
+						color: $textcol;
+						font-family: $mediumfont;
+						line-height: 20px;
+						margin: 0;
+						font-size: $txt-size1;
+					}
+				}
+				
+				.hidden-more-info{
+					float: left;
+					width: 100%;
+					margin: 0 0 23px 0;
+					display: none;
+					-webkit-transition:all 400ms ease-in;
+					-moz-transition: all 400ms ease-in;
+					-o-transition: all 400ms ease-in;
+					-ms-transition: all 400ms ease-in;
+					transition: all 400ms ease-in;
+					
+					.more-single{
+						float: left;
+						width: 100%;
+						margin: 5px 0;
+						
+						span{
+							float: left;
+							font-family: $mainfont;
+							font-size: $txt-size;
+							color: $sociaalpri-col;
+							line-height: 18px;
+						}
+						
+						a{
+							float: left;
+							font-family: $mainfont;
+							font-size: $txt-size;
+							color: $sociaalpri-col;
+							padding: 0 0 0 10px;
+							line-height: 18px;
+							
+							&:hover{
+								background: $lighter;
+								text-decoration: underline;
+							}
+						}
+					}
+					
+					.profile-image{
+						float: left;
+						width: 40px;
+						border-radius: 5px;
+						margin: 0 16px 0 0;
+						
+						img{
+							border-radius: 5px;
+							border: 1px solid $sociaalpri-col;
+						}
+					}
+					
+					.profile-details{
+						float: left;
+						width: 80%;
+						
+						a{
+							color: $sociaalpri-col;
+							font-family: $mainfont;
+							float: left;
+							width: 100%;
+							padding: 0 0 8px 0;
+							font-size: $size-base;
+							
+							&:hover{
+								text-decoration: underline;
+							}
+						}
+						
+						span{
+							float: left;
+							width: 100%;
+							font-family: $mediumfont;
+							font-size: $txt-size1;
+							color: $sociaalpri-col;
+						}
+					}
+				}
+				
+				.hidden-more-button{
+					float: left;
+					width: 100%;
+					display: none;
+					-webkit-transition:all 400ms ease-in;
+					-moz-transition: all 400ms ease-in;
+					-o-transition: all 400ms ease-in;
+					-ms-transition: all 400ms ease-in;
+					transition: all 400ms ease-in;
+					
+					.button.secondary{
+						border: 2px solid $sociaalpri-col;
+						color: $sociaalpri-col;
+						width: 100%;
+						height: 42px;
+						line-height: 40px;
+						
+						&:hover{
+							background: $sociaalpri-col;
+							color: $lighter;
+						}
+					}
+				}
+			}
+			&:hover{
+				position: absolute;
+                margin-top: -30px;
+                z-index: 99999;
+				.widget-image{
+					padding: 0 15px;
+					margin: -34px 0 0 0;
+					
+					img{
+						border-radius: 12px;
+					}
+				}
+				
+				.hidden-more-info{
+					display: block;
+				}
+				
+				.hidden-more-button{
+					display: block;
+				}
+			}
+		}
+	} 
+}
+
+.pagination__list-pagination{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin: 17px 0 41px 0;
+	
+	ul{
+		float: left;
+		width: 100%;
+		@include flexbox;
+        @include flex-direction(row);
+        @include justify-content(center);
+		
+		li{
+			height: 30px;
+			line-height: 26px;
+			width: 30px;
+			text-align: center;
+			margin: 0 5px;
+			font-size: $size-h6;
+			font-family: $mainfont;
+			color: $pagination-col;
+			@include border-radius(3px);
+			
+			a{
+				font-size: $size-h6;
+				font-family: $mainfont;
+				color: $pagination-col;
+				width: 30px;
+				height: 30px;
+				padding: 0;
+				line-height: 30px;
+				@include border-radius(3px);
+				
+				&:hover{
+					background: $pagntn-hover;
+				}
+			}
+			
+			&.current{
+				background: $sociaalpri-col;
+				@include border-radius(3px);
+			}
+			
+			&.ellipsis{				
+				position: relative;
+				
+				&:after{
+					font-size: $size-h6;
+					font-family: $mainfont;
+					color: $pagination-col;
+				}
+			}
+			
+			&.pagination-previous.disabled{
+				position: relative;
+				
+				&:before{
+					width: 30px;
+					height: 30px;
+					content: "";
+					position: absolute;
+					left: 0;
+					top: 0;
+					background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDMwIDMwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMCAzMDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGRlZnM+DQoJPHBvbHlnb24gaWQ9IlNWR0lEXzFfIiBwb2ludHM9IjE5LDguOSAxOC4xLDggMTAuOSwxNSAxOC4xLDIyIDE5LDIxLjEgMTIuOCwxNSAJIi8+DQo8L2RlZnM+DQo8dXNlIHhsaW5rOmhyZWY9IiNTVkdJRF8xXyIgIHN0eWxlPSJvdmVyZmxvdzp2aXNpYmxlO2ZpbGw6I0FGQUZBRjsiLz4NCjxjbGlwUGF0aCBpZD0iU1ZHSURfMl8iPg0KCTx1c2UgeGxpbms6aHJlZj0iI1NWR0lEXzFfIiAgc3R5bGU9Im92ZXJmbG93OnZpc2libGU7Ii8+DQo8L2NsaXBQYXRoPg0KPC9zdmc+) !important;
+					background-size: 30px 30px;
+					background-repeat: no-repeat;
+				}
+			
+			}
+			
+			&.pagination-next{
+				
+				a{
+					position: relative;
+					
+					&:after{
+						width: 30px;
+						height: 30px;
+						content: "";
+						position: absolute;
+						left: 0;
+						top: 0;
+						background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDMwIDMwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMCAzMDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGRlZnM+DQoJPHBvbHlnb24gaWQ9IlNWR0lEXzFfIiBwb2ludHM9IjEwLjksOC45IDExLjgsOCAxOSwxNSAxMS44LDIyIDEwLjksMjEuMSAxNy4xLDE1IAkiLz4NCjwvZGVmcz4NCjx1c2UgeGxpbms6aHJlZj0iI1NWR0lEXzFfIiAgc3R5bGU9Im92ZXJmbG93OnZpc2libGU7ZmlsbDojQUZBRkFGOyIvPg0KPGNsaXBQYXRoIGlkPSJTVkdJRF8yXyI+DQoJPHVzZSB4bGluazpocmVmPSIjU1ZHSURfMV8iICBzdHlsZT0ib3ZlcmZsb3c6dmlzaWJsZTsiLz4NCjwvY2xpcFBhdGg+DQo8L3N2Zz4=) !important;
+						background-size: 30px 30px;
+						background-repeat: no-repeat;
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//media queries 
+@include breakpoint(xxlarge only) {
+    
+}
+
+@include breakpoint(large only) {  
+   	.overlayed-content{max-width: 994px;}
+	.overlayed-content .breadcrumbs__outer{padding: 0;}
+    .dropdown__switch-outer {margin: 0 0 50px 0;}
+}
+@include breakpoint(medium only){ 
+	.tabs-panel ul li{width: 32%;}
+	.tabs-panel ul li .widget-content{padding: 23px 20px 15px;}
+	.overlayed-content{max-width: 738px;}
+	.overlayed-content .breadcrumbs__outer{padding: 0;}
+	.tabs-panel ul li .widget-content .hidden-more-info .profile-details{width: 70%;}
+	.inner-banner__imgblk figure img{height: 423px;}
+}
+
+@include breakpoint(small only) { 
+	.tab__tabbed-content ul{@include flex-direction(column);}
+	.tab__tabbed-content ul li{margin: 5px 0;}
+	.tab__tabbed-content ul li > a{padding: 18px 20px 18px;}
+	.tabs-panel ul{@include align-items(center);}
+	.tabs-panel ul li{width: 80%;}
+	.inner-banner__outercont{width: 1000px;max-width: none;position: relative;left: 50%;margin-left: -500px;}
+	.overlayed-content{max-width: 470px;}
+	.inner-banner__content-outer{padding: 0 30px;}
+	.overlayed-content .breadcrumbs__outer{padding: 0;}
+	.tabs-panel ul li .widget-content .widget-title a h6{line-height: 22px;font-size: 17px;}
+	.tabs-panel .article-card{float: none;margin: 0 auto;width: 88%;}
+    .tabs-panel .article-card .widget-outer:hover{position: relative;}
+    .dropdown__switch-outer span{color: $textcol;}
+}
+@media only screen and (max-width: 479px) {
+	.tabs-panel ul li{width: 100%;}
+	.overlayed-content{max-width: 300px;}
+	.inner-banner__content-outer{padding: 0 10px;}
+	.inner-banner_content-details p{font-size: 14px;line-height: 21px;}
+	.inner-banner_content-details h2{font-size: 30px;}
+	.tabs-panel ul li .widget-content .hidden-more-info .profile-details{width: 75%;}
+	.tabs-panel .article-card{width: 90%;}
+	.tabs-panel .article-card .widget-outer .widget-content{padding: 23px 15px 15px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

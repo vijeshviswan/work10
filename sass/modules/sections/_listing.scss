@@ -1,0 +1,296 @@
+ 
+/*** Home Page *****************************************************************************************************************************************/ 
+
+.content__leftouter{
+    width: 65%;
+    height: auto;
+    float: left;
+    max-width: 670px; 
+    h2{
+        
+        color: $sociaalpri-col;
+    }
+    h6{
+        color: $sociaalpri-col;
+        font-size: $size-base;
+        font-family: $subfont;
+    }
+    p{
+        font-family: $mediumfont;
+        color: $textcol;
+        font-weight: normal;
+        font-size: $txt-size;
+    }
+    .contact__outer{
+        width: 100%;
+        height: auto;
+        float: left; 
+        
+        .button-outer{
+            width: 100%;
+            hanging-punctuation: allow-end;
+            float: left;position: relative;
+            z-index: 99999; 
+            
+           .button.primary{
+                float: right;
+                max-width: 170px; 
+                
+            } 
+        }
+        .address-outercont{
+            width: 100%;
+            height: auto;
+            float: left; 
+            position: relative;
+            z-index: 9999;
+            
+            
+            .single-section{
+                width: 50%;
+                height: auto;
+                float: left;
+                max-width: 302px;
+            h6{
+                font-size: $txt-size;
+            }
+                
+   
+            .button.secondary {border: 2px solid $sociaalpri-col;color: $sociaalpri-col; max-width: 170px;}
+            .button.secondary:hover {background: $sociaalpri-col;color: $lighter; } 
+                
+            } 
+            p{
+                line-height: 24px;
+                margin: 0;
+                padding-bottom: 9px;
+                max-width: 250px;
+            }
+             
+        }
+    }
+}
+
+
+.content__rightouter{
+    width: 35%;
+    height: auto;
+    float: left; 
+    max-width: 400px; 
+    
+    ul{
+        width: 100%;
+        height: auto;
+        float: right;
+        list-style: none;
+        max-width:300px;
+        padding-left: 30px;
+        li{
+            width: 100%;
+            height:auto;            
+            float: left;
+            margin: 0;
+            padding: 15px 0 10px 0;
+            border-bottom: $sliderdot solid 1px;
+            &:first-child{ 
+                border-top: $sliderdot solid 1px;
+            }
+            a{
+                span.header{
+                    width: 100%;
+                    float: left;
+                    color: $sociaalpri-col;
+                    font-size: $txt-size1;
+                    font-family: $subfont;
+                }
+                p{
+                    width: 100%;
+                    float: left;
+                    font-family: $mediumfont;
+                    color: $textcol;
+                    font-weight: normal;
+                    font-size: $txt-size1;
+                    line-height: 18px;
+                    padding: 0px;
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom__listingouter.slider-listing{ 
+    margin-top: -120px;
+     background: url(../images/contentbg_1.png) no-repeat left top;
+    position: relative;
+    
+    .msking-topimg{ 
+        width: 100%;
+        height: auto;
+        position: absolute;
+        right: 0;
+        top: 32px;
+        z-index: 9999;
+        img{
+            float: left;
+            width: auto;
+            max-width: none;
+        }
+    }
+    .msking-bottomimg{ 
+        width: 100%;
+        height: auto;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 9999;
+        img{
+            float: left;
+            width: auto;
+            max-width: none;
+        }
+    }
+    
+    
+    .content__outerblk{ 
+        max-width: 1100px; 
+        .content-leftblk{ 
+            max-width: 500px;  
+            h2{
+                color: $lighter;
+                letter-spacing: -1px;
+            }
+            p{
+                color: $lighter; 
+                max-width: 780px; 
+                font-family: $mediumfont;
+            }
+        }
+         
+    }
+    
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-rightblk.vert__slider-blk ul{
+    float: left;
+    li{
+        @include border-radius(7px);
+        overflow: hidden;
+        line-height: 1px;
+        padding: 0px;
+        img{
+            
+        @include border-radius(7px);
+        overflow: hidden;
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//media queries 
+@media only screen and (min-width:2000px) {  
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {  
+}
+
+@include breakpoint(xxlarge only) { 
+}
+
+@include breakpoint(large only) {   
+    .bottom__listingouter.slider-listing .content__outerblk .content-leftblk {padding-left: 150px;}
+    
+}
+@include breakpoint(medium down){ // 767 - 1023 
+    
+    .bottom__listingouter.slider-listing .content__outerblk .content-leftblk {padding-left: 150px;}
+}
+@include breakpoint(medium only){  
+}
+
+@include breakpoint(small only) {  
+    .content__leftouter{width: 100%; max-width: 100%;}
+    .content__rightouter{width: 100%; max-width: 100%;}
+    .content__rightouter ul{padding: 0px; max-width: 100%;}
+    .bottom__listingouter.slider-listing  {background: $sociaalpri-col;  padding: 50px 0; margin: 0px;}
+    .content__leftouter .contact__outer .address-outercont{padding-top: 50px; padding-bottom: 50px;}
+    .content__leftouter .contact__outer .address-outercont .single-section{width:100%; max-width: none;}
+
+    .bottom__listingouter.slider-listing{background:$sociaalpri-col;} 
+    .bottom__listingouter.slider-listing .background__imgblk,
+    .bottom__listingouter.slider-listing .msking-topimg,
+    .bottom__listingouter.slider-listing .msking-bottomimg{display: none;}
+    .bottom__listingouter.slider-listing .content__outerblk .content-leftblk {padding-left:0px;}
+    .bottom__listingouter .content__outerblk .content-rightblk ul li{padding: 15px 5px;}
+}
+@media only screen and (max-width: 479px) { 
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

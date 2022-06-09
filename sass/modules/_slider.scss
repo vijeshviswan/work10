@@ -1,0 +1,102 @@
+ 
+/*** slider *****************************************************************************************************************************************/
+ .image__slidersouter {
+     width: 100%;
+     height: auto;
+     float: left;
+     text-align: center;
+     position: relative;
+     z-index: 9999;
+     h5 {
+         text-align: center;
+         color: $sociaalpri-col;
+         letter-spacing: -1px;
+     }
+     .logoslider-blk {
+         padding: 0 40px;
+         .link-text {
+             display: inline-block;
+             float: none;
+             color: $sociaalpri-col;
+             span {
+                 color: $sociaalpri-col;
+             }
+         }
+         ul {
+             width: 100%;
+             height: auto;
+             float: left;
+             line-height: normal;
+             margin: 0;
+             padding: 0;
+             li {
+                 width: auto;
+                 height: auto;
+                 float: left;
+                 text-align: center;
+                 a {
+                     display: inline-block;
+                     -webkit-filter: grayscale(100%);
+                     -moz-filter: grayscale(100%);
+                     filter: grayscale(100%);
+                     font-size: $txt-size;
+                     opacity: .3;
+                     &:hover {
+                         -webkit-filter: grayscale(0%);
+                         -moz-filter: grayscale(0%);
+                         filter: grayscale(0%);
+                         opacity: 1;
+                     }
+                 }
+             }
+         }
+     }
+     .slick-arrow {
+         position: absolute;
+         top: 50%;
+         margin-top: -20px;
+         width: 40px;
+         height: 40px;
+         background: #fff;
+         z-index: 9;
+         cursor: pointer;
+         color: #99acbc;
+         outline: none;
+         -webkit-transition: all 300ms ease-in 0s;
+         -moz-transition: all 300ms ease-in 0s;
+         transition: all 300ms ease-in 0s;
+         font-size: 0px;
+     }
+     .slick-arrow.slick-prev {
+         right: 100%;
+         background: url(../images/svg/prev_arrow.svg) no-repeat center center;
+     }
+     .slick-arrow.slick-next {
+         left: 100%;
+         background: url(../images/svg/next_arrow.svg) no-repeat center center;
+     }
+ }
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+//media queries 
+ 
+@include breakpoint(small only){ //0 -768  
+    .image__slidersouter .logoslider-blk {padding: 0px;}
+    .image__slidersouter .slick-arrow  {display: none!important;} 
+}
+ 
+
+    
+    
+    
+    

@@ -1,0 +1,258 @@
+
+/*** Green Themes *****************************************************************************************************************************************/
+.green-pageouter{   
+    h1,h2,h3,h4,h5,h6 {color: $logistiekpri-col;}        
+    .inner-banner_content-details h2{color: $lighter;} 
+    .header__navigation .main-menu ul li a::before {border-color: transparent transparent $logistiekpri-col transparent;}
+    .content__block-wrap .content__block-outer h2 {color: $logistiekpri-col;}
+    .three-column .article-row-content h2 {color: $logistiekpri-col;}
+    .bottom__listingouter .content__outerblk .content-rightblk ul li a h6 {color: $logistiekpri-col;}
+    .three-column .article-row-content h2 {color: $logistiekpri-col;}
+    .article__row-section.with-bg .article-row-wrap .article-row-content h2 {color: $lighter;}
+    .article__row-section .article-row-wrap .article-row-content h2 {color: $logistiekpri-col;}
+    .content__block-wrap .content__block-outer h6 {color: $logistiekpri-col;}
+    .content__block-wrap .content__block-outer.bottom-info h5 {color: $logistiekpri-col;}
+    .content__block-outer.tabs-panel h4 {color: $logistiekpri-col;}
+    .content__block-wrap .social-outer span {color: $logistiekpri-col;}
+    .content__block-wrap .social-outer ul li a i {color: $logistiekpri-col;}
+    .content__block-wrap .social-outer ul li a:hover i {color: $logistieksec-col;}
+    .content__block-wrap .content__block-outer.bottom-info .button.primary{background: $logistiekpri-col;}
+    .button.primary{ background: $logistiekpri-col;
+        &.light-btn{background: $lighter;color: $logistieksec-col;
+            &:hover{background: $lighter;}
+        }
+    }
+    .form-floating-label {
+      &.has-value {border-bottom: 2px solid $logistiekpri-col;}
+      input[type="text"],input[type="email"],input[type="tel"],textarea {color: $logistiekpri-col !important;text-shadow: 0px 0px 0px $logistiekpri-col;}
+    }
+    .article__row-section.with-slider .slider-item .slick-dots li.slick-active button {background: $logistiekpri-col;}
+    .form-floating-label input:focus~label,.form-floating-label input:disabled[value]~label,.form-floating-label.has-value input~label { color: $logistiekpri-col;}
+    .form-floating-label textarea:focus~label,.form-floating-label.has-value textarea~label { color: $logistiekpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .widget-title a h6 {color: $logistiekpri-col;}
+    .content__block-wrap .content__block-outer h6 {color: $logistiekpri-col;}
+    .footer__container .footer__top .footer-top-content h2 {color: $logistiekpri-col;}
+    .article__row-section.video-blk .article-row-wrap .article-row-content .button.secondary {color: $logistiekpri-col;}
+    
+    .article__row-section.video-blk .article-row-wrap .article-row-content .button.secondary:hover{color: $lighter;}
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-button .button.secondary {border: 2px solid $logistiekpri-col;color: $logistiekpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-button .button.secondary:hover {background: $logistiekpri-col;color: $lighter; }
+    .button.secondary:hover {background: $lighter;color: $logistiekpri-col; }
+    .image__slidersouter h5 {color: $logistiekpri-col;}
+    .image__slidersouter .logoslider-blk .link-text{color: $logistiekpri-col;}
+    .image__slidersouter .logoslider-blk .link-text span{color: $logistiekpri-col!important;}
+    .link-text{color: $logistiekpri-col;}
+    .link-text:hover{color: $logistieksec-col;}
+    .link-text span{color: $logistiekpri-col;}
+    .link-text:hover span{color: $logistieksec-col;}
+    .bottom__common-contact.light-bg .content__outerblk .inner__contactblk .title-block h5{color: $logistieksec-col;}
+    .tab__tabbed-content > ul li > a{color: $logistiekpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-info .more-single a{color: $logistiekpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-info .more-single span{color: $logistiekpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-info .profile-details a{color: $logistiekpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-info .profile-details span{color: $logistiekpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .widget-title a{color: $logistiekpri-col;}
+    .switch-dropdown a{color: $logistiekpri-col;}
+    .tab__tabbed-content.column-content .tabs-panel h6{color: $logistiekpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-info .profile-image img {border: 1px solid $logistiekpri-col;}
+    .pagination__list-pagination ul li.current {background: $logistiekpri-col;}
+    .tab__tabbed-content > ul li.is-active a{color: $lighter; background:  $logistiekpri-col;}
+    .tab__tabbed-content > ul li > a:hover{color: $lighter; background:  $logistiekpri-col;} 
+    .close-btn{color: $logistiekpri-col;}
+    .custom_paging li.slick-active{color: $logistiekpri-col;}
+    .custom-slider-con .custom-slider-container .hs-slider-controls .slider-control-icon i{color: $logistiekpri-col;}
+    .article__row-section.with-slider .article-row-wrap .article-row-slider .link-text,
+    .article__row-section.with-slider .article-row-wrap .article-row-slider .link-text span{color: $logistiekpri-col; }
+    .article__row-section.with-slider .article-row-wrap .article-row-slider .link-text:hover,
+    .article__row-section.with-slider .article-row-wrap .article-row-slider .link-text span:hover{color: $logistieksec-col; } 
+    .article__row-section.video-blk .popup-icons{background:url(../images/svg/video_iconplay_green.svg) no-repeat left center;}
+    .popup-icons { background: url(../images/svg/video_iconbg_green.svg) no-repeat left center; }
+    .tabs-panel .article-card .widget-outer .widget-image .image-info { background: url(../images/svg/video_iconbg_green.svg) no-repeat left center; }
+    .article__row-section.with-bg:after {background: url(../images/contentbg_1_green.png) no-repeat left center;background-size: cover;}
+    .article__row-section.with-slider:after {background: url(../images/contentbg_3_green.png) no-repeat right center;background-size: cover;}
+    .banner__outercont.hero-img .banner__content-outer {background: url(../images/banner_ribbon_green.png) no-repeat left top;}
+    .image__slidersouter .slick-arrow.slick-prev{background: url(../images/svg/prev_arrow_green.svg) no-repeat center center;}
+    .image__slidersouter .slick-arrow.slick-next{background: url(../images/svg/next_arrow_green.svg) no-repeat center center;}
+    /*.bg-wrap{background: url(../images/ligtebg_green.png) no-repeat top right;}*/
+    .bottom__listingouter {background: url(../images/contentbg_4_green.png) no-repeat left top;}
+    .list-column {background: url(../images/contentbg_2_green.png) no-repeat -50px top;}
+    .close-btn:before{background: url(../images/svg/close_icon_green.svg) no-repeat left top;}
+    .article__row-section.with-slider .slider-item .slick-dots li button:hover {background: rgba(0,134,100,0.5);}
+    .content__block-wrap .content__block-outer .post-info span, .content__block-wrap .content__block-outer .post-info h6,.content__block-wrap .content__block-outer .post-info a {
+    color: $logistiekpri-col;}
+    .content__block-wrap .content__block-outer .post-info a {color: $logistiekpri-col;}
+    
+    .reveal-overlay{background: #43ccaa;}
+    .reveal-modal .widget-outer h6{color: $logistiekpri-col;}
+    .reveal-modal .widget-outer .widget-image .image-info {background: url(../images/svg/video_iconbg_green.svg) no-repeat left center;}
+    .listing .form-fields:before {background: url(../images/svg/search_icon_green.svg) no-repeat left center;}
+    .article-box:hover .article-content {background: rgba(0,134,100,0.8);}
+    .article-box .article-image .article-content h6,.article-box .article-image .article-content span {color: $logistiekpri-col;}
+    .article-box:hover .article-content h6,.article-box:hover .article-content span{color: $lighter;}
+    .content__rightouter ul li a span.header{color: $logistiekpri-col;}
+    .content__leftouter .contact__outer .address-outercont .single-section .button.secondary {border: 2px solid $logistiekpri-col;color: $logistiekpri-col;}
+    .content__leftouter .contact__outer .address-outercont .single-section .button.secondary:hover {background: $logistiekpri-col;color: $lighter;}
+    .bottom__listingouter.slider-listing {background: url(../images/contentbg_1_green.png) no-repeat left top;}
+    .reveal-modal .widget-outer .close-button span {color: $logistiekpri-col;}
+    
+    @include breakpoint(xxlarge only) {
+        .list-column {background: url(../images/contentbg_2_green.png) no-repeat 50px top;}
+    }
+
+    @include breakpoint(large only) {
+        .list-column {background: url(../images/contentbg_2_green.png) no-repeat center top;margin: -100px 0 0;background-size: cover;}
+        .bottom__listingouter {background: url(../images/contentbg_4_green.png) no-repeat center top;}
+    }
+
+    @include breakpoint(medium only) {
+        .list-column {background: url(../images/contentbg_2_green.png) no-repeat center center;margin-top: -100px;max-height: 680px;background-size: cover;}
+        .bottom__listingouter {background: url(../images/contentbg_4_green.png) no-repeat center top;}
+    }
+
+    @include breakpoint(small only) {
+        .bottom__common-contact.light-bg {background: $lighter url(../images/ligtebg_green.png) no-repeat center center;}
+        .bottom__common-contact {background: $logistiekpri-col;}
+        .banner__outercont {background: $logistiekpri-col;}
+        .list-column {background: $logistiekpri-col;}
+        .bottom__listingouter {background: $logistiekpri-col;}
+        .article__row-section.with-slider .article-row-wrap .article-row-content{background: $logistiekpri-col;}
+        .green-pageouter .article__row-section.with-bg::after{background: $logistiekpri-col;}
+        .banner__outercont.hero-img .banner__content-outer {background: rgba(0,134,100,0.5);}
+        .bottom__listingouter.list-right{background: $logistiekpri-col;}
+        .bottom__listingouter.slider-listing {background: $logistiekpri-col;}
+    }
+
+}
+ 
+
+
+/*** Blue Themes *****************************************************************************************************************************************/
+.blue-pageouter{   
+    h1,h2,h3,h4,h5,h6 {color: $generalpri-col;}
+    .inner-banner_content-details h2{color: $lighter;}
+    .header__navigation .main-menu ul li a::before {border-color: transparent transparent $generalpri-col transparent;}
+    .content__block-wrap .content__block-outer h2 {color: $generalpri-col;}
+    .three-column .article-row-content h2 {color: $generalpri-col;}
+    .bottom__listingouter .content__outerblk .content-rightblk ul li a h6 {color: $generalpri-col;}
+    .three-column .article-row-content h2 {color: $generalpri-col;}
+    .article__row-section.with-bg .article-row-wrap .article-row-content h2 {color: $lighter;}
+    .article__row-section .article-row-wrap .article-row-content h2 {color: $generalpri-col;}
+    .content__block-wrap .content__block-outer h6 {color: $generalpri-col; }
+    .content__block-wrap .content__block-outer.bottom-info h5 {color: $generalpri-col;}
+    .content__block-outer.tabs-panel h4 {color: $generalpri-col;}
+    .content__block-wrap .social-outer span {color: $generalpri-col;}
+    .content__block-wrap .social-outer ul li a i {color: $generalpri-col;}
+    .content__block-wrap .social-outer ul li a:hover i {color: $generalsec-col;}
+    .content__block-wrap .content__block-outer.bottom-info .button.primary{background: $generalpri-col;}
+    .button.primary{ background: $generalpri-col;
+        &.light-btn{background: $lighter;color: $generalsec-col;
+            &:hover{background: $lighter;}
+        }
+    }
+    .form-floating-label {
+      &.has-value {border-bottom: 2px solid $generalpri-col;}
+      input[type="text"],input[type="email"],input[type="tel"],textarea {color: $generalpri-col !important;text-shadow: 0px 0px 0px $generalpri-col;}
+    }
+    .article__row-section.with-slider .slider-item .slick-dots li.slick-active button {background: $generalpri-col;}
+    .form-floating-label input:focus~label,.form-floating-label input:disabled[value]~label,.form-floating-label.has-value input~label { color: $generalpri-col;}
+    .form-floating-label textarea:focus~label,.form-floating-label.has-value textarea~label { color: $generalpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .widget-title a h6 {color: $generalpri-col;}
+    .content__block-wrap .content__block-outer h6 {color: $generalpri-col;}
+    .footer__container .footer__top .footer-top-content h2 {color: $generalpri-col;}
+    .article__row-section.video-blk .article-row-wrap .article-row-content .button.secondary {color: $generalpri-col;}
+    
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-button .button.secondary {border: 2px solid $generalpri-col;color: $generalpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-button .button.secondary:hover {background: $generalpri-col;color: $lighter; }
+    .button.secondary:hover {background: $lighter;color: $generalpri-col; }
+    .image__slidersouter h5 {color: $generalpri-col;}
+    .image__slidersouter .logoslider-blk .link-text{color: $generalpri-col;}
+    .image__slidersouter .logoslider-blk .link-text span{color: $generalpri-col!important;}
+    .link-text{color: $generalpri-col;}
+    .link-text:hover{color: $generalsec-col;}
+    .link-text span{color: $generalpri-col;}
+    .link-text:hover span{color: $generalsec-col;}
+    .bottom__common-contact.light-bg .content__outerblk .inner__contactblk .title-block h5{color: $generalsec-col;}
+    .tab__tabbed-content > ul li > a{color: $generalpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-info .more-single a{color: $generalpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-info .more-single span{color: $generalpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-info .profile-details a{color: $generalpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-info .profile-details span{color: $generalpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .widget-title a{color: $generalpri-col;}
+    .switch-dropdown a{color: $generalpri-col;}
+    .tab__tabbed-content.column-content .tabs-panel h6{color: $generalpri-col;}
+    .tabs-panel .article-card .widget-outer .widget-content .hidden-more-info .profile-image img {border: 1px solid $generalpri-col;}
+    .pagination__list-pagination ul li.current {background: $generalpri-col;}
+    .tab__tabbed-content > ul li.is-active a{color: $lighter; background:  $generalpri-col;}
+    .tab__tabbed-content > ul li > a:hover{color: $lighter; background:  $generalpri-col;} 
+    .close-btn{color: $generalpri-col;}
+    .custom_paging li.slick-active{color: $generalpri-col;}
+    .custom-slider-con .custom-slider-container .hs-slider-controls .slider-control-icon i{color: $generalpri-col;}
+    .article__row-section.with-slider .article-row-wrap .article-row-slider .link-text,
+    .article__row-section.with-slider .article-row-wrap .article-row-slider .link-text span{color: $generalpri-col; }
+    .article__row-section.with-slider .article-row-wrap .article-row-slider .link-text:hover,
+    .article__row-section.with-slider .article-row-wrap .article-row-slider .link-text span:hover{color: $generalsec-col; } 
+    .article__row-section.video-blk .article-row-wrap .article-row-content .button.secondary:hover{color: $lighter;}
+    .article__row-section.video-blk .popup-icons{background:url(../images/svg/video_iconplay_blue.svg) no-repeat left center;}
+    .popup-icons { background: url(../images/svg/video_iconbg_blue.svg) no-repeat left center; }
+    .tabs-panel .article-card .widget-outer .widget-image .image-info { background: url(../images/svg/video_iconbg_blue.svg) no-repeat left center; }
+    .article__row-section.with-bg:after {background: url(../images/contentbg_1_blue.png) no-repeat left center;background-size: cover;}
+    .article__row-section.with-slider:after {background: url(../images/contentbg_3_blue.png) no-repeat right center;background-size: cover;}
+    .banner__outercont.hero-img .banner__content-outer {background: url(../images/banner_ribbon_blue.png) no-repeat left top;}
+    .image__slidersouter .slick-arrow.slick-prev{background: url(../images/svg/prev_arrow_blue.svg) no-repeat center center;}
+    .image__slidersouter .slick-arrow.slick-next{background: url(../images/svg/next_arrow_blue.svg) no-repeat center center;}
+    /*.bg-wrap{background: url(../images/ligtebg_blue.png) no-repeat top right;}*/
+    .bottom__listingouter {background: url(../images/contentbg_4_blue.png) no-repeat left top;}
+    .list-column {background: url(../images/contentbg_2_blue.png) no-repeat -50px top;} 
+
+    .close-btn:before{background: url(../images/svg/close_icon_blue.svg) no-repeat left top;}
+    .article__row-section.with-slider .slider-item .slick-dots li button:hover {background: rgba(55,43,132,0.5);}
+    .content__block-wrap .content__block-outer .post-info span, .content__block-wrap .content__block-outer .post-info h6,.content__block-wrap .content__block-outer .post-info a {color: $generalpri-col;}
+    .content__block-wrap .content__block-outer .post-info a {color: $generalsec-col;}
+    
+    
+    .reveal-overlay{background: #7b749c;}
+    .reveal-modal .widget-outer h6{color: $generalpri-col;}
+    .reveal-modal .widget-outer .widget-image .image-info {background: url(../images/svg/video_iconbg_blue.svg) no-repeat left center;}
+    .listing .form-fields:before {background: url(../images/svg/search_icon_blue.svg) no-repeat left center;}
+    .article-box:hover .article-content {background: rgba(55,43,132,0.8);}
+    .article-box .article-image .article-content h6,.article-box .article-image .article-content span {color: $generalpri-col;}
+    .article-box:hover .article-content h6,.article-box:hover .article-content span{color: $lighter;}
+    .content__rightouter ul li a span.header{color: $generalpri-col;}
+    .content__leftouter .contact__outer .address-outercont .single-section .button.secondary {border: 2px solid $generalpri-col;color: $generalpri-col;}
+    .content__leftouter .contact__outer .address-outercont .single-section .button.secondary:hover {background: $generalpri-col;color: $lighter;}
+    .bottom__listingouter.slider-listing {background: url(../images/contentbg_1_blue.png) no-repeat left top;}
+    .reveal-modal .widget-outer .close-button span {color: $generalsec-col;}
+    
+    @include breakpoint(xxlarge only) {
+        .list-column {background: url(../images/contentbg_2_blue.png) no-repeat 50px top;}
+    }
+
+    @include breakpoint(large only) {
+        .list-column {background: url(../images/contentbg_2_blue.png) no-repeat center top;margin: -100px 0 0;background-size: cover;}
+        .bottom__listingouter {background: url(../images/contentbg_4_blue.png) no-repeat center top;}
+    }
+
+    @include breakpoint(medium only) {
+        .list-column {background: url(../images/contentbg_2_blue.png) no-repeat center center;margin-top: -100px;max-height: 680px;background-size: cover;}
+        .bottom__listingouter {background: url(../images/contentbg_4_blue.png) no-repeat center top;}
+    }
+
+    @include breakpoint(small only) {
+        .bottom__common-contact.light-bg {background: $lighter url(../images/ligtebg_blue.png) no-repeat center center;}
+        .bottom__common-contact {background: $generalpri-col;}
+        .banner__outercont {background: $generalpri-col;}
+        .list-column {background: $generalpri-col;}
+        .bottom__listingouter{background: $generalpri-col;}
+        .article__row-section.with-slider .article-row-wrap .article-row-content{background: $generalpri-col;}
+        .article__row-section.with-bg:after{background: $generalpri-col;}
+        .banner__outercont.hero-img .banner__content-outer {background: rgba(35,23,89,0.5);}
+        .bottom__listingouter.list-right{background: $generalpri-col;}
+        .bottom__listingouter.slider-listing {background: $generalpri-col;}
+    }
+}
+
+
+
+
+
+ 

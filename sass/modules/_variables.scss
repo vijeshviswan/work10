@@ -1,0 +1,109 @@
+// Variables
+// --------------------------  
+ 
+// Colors and backgrounds
+// --------------------------
+
+$darker:         #000000!default;
+$textcol:        lighten($darker, 33)    !default; //#565656
+$plchldr:        lighten($darker, 47)    !default; //#797979
+$tab-bg:         lighten($darker, 54)    !default; //#8a8a8a
+$inpt-brdr:      lighten($darker, 60)    !default; //#9a9a9a
+$tab-brdr:       lighten($darker, 84)    !default; //#d7d7d7
+$sliderdot:      lighten($darker, 85)    !default; //#d8d8d8
+$navborder:      lighten($darker, 87)    !default; //#dddddd
+$pagntn-hover:   lighten($darker, 94)    !default; //#f0f0f0
+$lighter:        lighten($darker, 100)   !default; //#ffffff
+
+$lightbg:                 #f5f4f7   !default; 
+
+
+
+$generalpri-col:          #231759    !default; 
+$generalsec-col:          #372B84	 !default;
+
+$sociaalpri-col:          #E73854    !default; 
+$sociaalsec-col:          #CC2449	 !default;
+
+$logistiekpri-col:        #009D76    !default; 
+$logistieksec-col:        #008664	 !default;
+
+$recreatiepri-col:        #1F257A    !default; 
+$recreatiesec-col:        #2B3B8E	 !default; 
+
+
+$searchbtn-col:        		#1b3f91	 !default; 
+
+
+$pagination-col:        #b2b1b2	 !default; 
+
+
+
+
+
+
+//== Typography
+// --------------------------   
+
+@font-face {
+    font-family: 'sharp_sansbold';
+    src: url('../fonts/sharp_sans_bold-webfont.eot');
+    src: url('../fonts/sharp_sans_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sharp_sans_bold-webfont.woff2') format('woff2'),
+         url('../fonts/sharp_sans_bold-webfont.woff') format('woff'),
+         url('../fonts/sharp_sans_bold-webfont.svg#sharp_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+@font-face {
+    font-family: 'sharp_sanssemibold';
+    src: url('../fonts/sharp_sans_semibold-webfont.eot');
+    src: url('../fonts/sharp_sans_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sharp_sans_semibold-webfont.woff2') format('woff2'),
+         url('../fonts/sharp_sans_semibold-webfont.woff') format('woff'),
+         url('../fonts/sharp_sans_semibold-webfont.svg#sharp_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'sharp_sansmedium';
+    src: url('../fonts/sharp_sans_medium-webfont.eot');
+    src: url('../fonts/sharp_sans_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sharp_sans_medium-webfont.woff2') format('woff2'),
+         url('../fonts/sharp_sans_medium-webfont.woff') format('woff'),
+         url('../fonts/sharp_sans_medium-webfont.svg#sharp_sansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+$mainfont: 	 'sharp_sanssemibold'; 
+$subfont: 	 'sharp_sansbold';  
+$mediumfont: 'sharp_sansmedium'; 
+
+
+ 
+
+$size-base:    16px !default; 
+
+$size-h1:                       ceil(($size-base * 3)) 			    !default;   // ~48px
+$size-h2:                       ceil(($size-base * 2.25)) 			!default;   // ~36px
+$size-h3:                       ceil(($size-base * 2.25)) 			!default;   // ~36px
+$size-h4:                       ceil(($size-base * 1.75)) 			!default;   // ~28px
+$size-h5:                       ceil(($size-base * 1.5)) 			!default;   // ~24px
+$size-h6:              		    ceil(($size-base * 1.125)) 			!default;   // ~18px
+
+
+$txt-size:                      ceil(($size-base * 0.875)) 			!default;   // ~14px 
+$txt-size1:              		ceil(($size-base * 0.75)) 			!default;   // ~12px 
+$txt-size2:              		ceil(($size-base * 0.6875)) 	    !default;   // ~11px 
+$txt-small:              		ceil(($size-base * 0.6)) 			!default;   // ~10px 
+
+ 
